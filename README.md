@@ -28,13 +28,13 @@ wget https://github.com/khichar-anil/bq-table-copy-automation/blob/master/bq_cp_
 `mapping.yaml `
 
     | Yaml Attribute | Sample Value | Description  |
-    | ------|------------| ------------ |
+    | ------|------------|------------|
     | sourceProjectId | source-project | Source table gcp project id. |
-    | targetProjectId | target-project | Source table gcp project id. Source & target project Ids can be same, if we want to copy table withing same project. |
+    | targetProjectId | target-project | Target table gcp project id. Source & target project Ids can be same, if we want to copy table withing same project. |
     | sourceDataset | source_ds | Source table BQ dataset name.|
-    | targetDataset | target_ds | Source BQ dataset name. Source & target dataset can be same, if we want to copy table withing same dataset. |
+    | targetDataset | target_ds | Target BQ dataset name. Source & target dataset can be same, if we want to copy table withing same dataset. |
     | tables > source | source_tbl_1 |  Source table name. |
-    | tables > target | target_tbl_1 | Source table name. |
+    | tables > target | target_tbl_1 | Target table name. |
 
 3. >`./bq_cp_util.sh`
 
