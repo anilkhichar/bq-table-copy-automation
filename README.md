@@ -18,7 +18,7 @@ Bash script to read a mapping Yaml file & copy table from one dataset to another
 
 1. Copy the `yaml_parser.sh`, `mapping.yaml` & `bq_cp_util.sh` files locally/on the server where gcloud is installed & [authenticated](https://cloud.google.com/sdk/gcloud/reference/init).
 
-```console
+```bash
 wget https://github.com/khichar-anil/bq-table-copy-automation/blob/master/yaml_parser.sh
 wget https://github.com/khichar-anil/bq-table-copy-automation/blob/master/mapping.yaml
 wget https://github.com/khichar-anil/bq-table-copy-automation/blob/master/bq_cp_util.sh
