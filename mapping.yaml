@@ -1,13 +1,13 @@
-sourceProjectId: demo-source-poc
-targetProjectId: demo-target-poc
-sourceDatasetId: demo_source_ds
-targetDatasetId: demo_target_ds
+sourceProjectId: source-project
+targetProjectId: target-project
+sourceDataset: source_ds
+targetDataset: target_ds
 
 # A comment just to say: list of source/target tables
 tables:
   -
-    source: demo_source_tbl_1
-    target: demo_target_tbl_1
+    source: source_tbl_1
+    target: target_tbl_1
   -
-    source: demo_source_tbl_2
-    target: demo_target_tbl_2
+    source: source_tbl_2
+    target: target_tbl_2
